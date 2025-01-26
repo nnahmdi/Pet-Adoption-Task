@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(17, 167, 117);
+    background-color: rgb(237, 244, 241);
     
 }
 
@@ -15,7 +15,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 100%;
-    background-color: rgb(221, 157, 29);
+    background-color: rgb(80, 105, 230);
     color: rgb(15, 7, 7);
     padding: 14px 20px;
     margin: 8px 0;
@@ -25,12 +25,29 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(152, 108, 20);
+    background-color: rgb(119, 146, 243);
 }
 
+div{
+    
+    width: 25%;
+    text-align: center;
+    padding: 80px;
+    border-radius:30px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    Font: 20px;
 
-div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+
+
+}
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
